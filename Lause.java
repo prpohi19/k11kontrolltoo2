@@ -21,7 +21,7 @@ public class Lause implements Liides{
         for (int i = 0; i < sonad.length; i++) {
             sonad[i] = sonad[i].replaceAll("[^\\w]", "");
             sonaObjektid[i] = new Sona(sonad[i]);
-            System.out.println(sonaObjektid[i]);
+            //System.out.println(sonaObjektid[i]);
         }
         return sonaObjektid;
     }
